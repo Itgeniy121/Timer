@@ -58,17 +58,31 @@ font-size: 90px;
 
     
 .start, .pause, .restart, .lap{
-    margin: 10px;
     font-size: 30px;
-    border: none;
-    background-color: #40E0D0;
-    border-radius: 25px;
-    color: aliceblue;
-    width: 25vh;
-    cursor: pointer;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+border: none;
+border-radius: 25px;
+color: aliceblue;
+width: 25vh;
+cursor: pointer;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: linear-gradient(to left, #8E2DE2, #8E2DE2, #4A00E0);
+background-size: 200%;
+transition: .5s;
 }
+
+ .lap:hover{
+    background-position: right;
+}
+.pause:hover{
+    background-position: right;
+}
+.start:hover{
+    background-position: right;
+}
+.restart:hover{
+    background-position: right;
+}
+
 .LAPS{
     display: flex;
     align-items: center;
